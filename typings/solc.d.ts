@@ -1,7 +1,11 @@
 declare module 'solc' {
     interface CompilerInputSourceFile {
         keccak256?: string;
+<<<<<<< HEAD
         content: string;
+=======
+        urls: string[];
+>>>>>>> cc859ecf6964c8f529f829a4463db2d742e1d6a4
     }
     interface CompilerInputSourceCode {
         keccak256?: string;
